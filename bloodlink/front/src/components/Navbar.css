@@ -1,0 +1,12 @@
+.navbar-nav{
+    display: flex;
+    gap: 20px;
+}
+.nav-link-item{
+    border-radius: 10px;
+}
+.nav-link-item:hover, .active{
+    color: white !important;
+    background-color: black;
+    transition: .3s background-color ease-in-out;
+}

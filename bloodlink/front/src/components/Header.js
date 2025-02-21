@@ -1,0 +1,23 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+function Header() {
+    return (
+        <div className="d-flex justify-content-center">
+            <Link to="/"
+                style={{
+                    fontFamily: "monospace",
+                    fontSize: "2.3rem",
+                    textDecoration: "none",
+                    color: "black",
+                    margin:"10px"
+                }}
+                className="">
+                HEALTH PROFILE
+                {/* This is head */}
+            </Link>
+        </div>
+    );
+}
+
+export default Header
